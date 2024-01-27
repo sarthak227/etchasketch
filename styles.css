@@ -1,0 +1,14 @@
+div.parent {
+    height:500px;
+    width:500px;
+    border:2px solid green;
+}
+
+div div div {
+    border:0.001px solid blue;
+}
+
+div div {
+    width:100%;
+    display:flex;
+}
